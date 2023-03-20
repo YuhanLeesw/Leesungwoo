@@ -1,2 +1,3 @@
-# Leesungwoo
-프로그래밍 패턴 수업용
+# 유한대학교 VR게임앱학과Programming Pattern
+* 학번: 202227073
+* 이름: 이성우입니다
