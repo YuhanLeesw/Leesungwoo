@@ -8,7 +8,7 @@ int main()
     while (1) 
     {
         
-	std::cout << "Input Key!!!" << std::endl;
+	    std::cout << "Input Key!!!" << std::endl;
         if (GetAsyncKeyState(VK_SPACE)||GetAsyncKeyState(VK_ESCAPE)) 
 	{   
             break;
