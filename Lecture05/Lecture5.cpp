@@ -34,16 +34,51 @@ void gotoxy(int x, int y) {
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 }
 
-int print_game_screen(int stage_width, int stage_height)
+int print_game_screen(int width,int height  )
 {
-    gotoxy(5, 5);
+    char** stage = new char* [height];
+    for (int i = 0; i < height; i++)
+    {
+        stage[i] = new char[width];
+        memset(stage[i], 0, width);
+    }
 
-    std::cout << "^^";
+    // 스테이지 벽 그리기
+    for (int i = 0; i < width; i++)
+    {
+        stage[0][i] = '#';
+        stage[height - 1][i] = '#';
+    }
+    for (int i = 0; i < height; i++)
+    {
+        stage[i][0] = '#';
+        stage[i][width - 1] = '#';
+    }
 
+    // 스테이지 출력
+    for (int i = 0; i < height; i++)
+    {
+        for (int j = 0; j < width; j++)
+        {
+            if (stage[i][j] == 0)
+                std::cout << " ";
+            else
+                std::cout << stage[i][j];
+        }
+        std::cout << std::endl;
+    }
 
+    for (int i = 0; i < height; i++)
+    {
+        delete[] stage[i];
+    }
+    delete[] stage;
 
     return 0;
+
 }
+
+
 
 // game_state == 2 일때
 int print_introduction_screen()
@@ -70,8 +105,14 @@ int main()
             switch (key_input)
             {
             case '1':
-                game_state = 1;
+                int width, height;
+                std::cout << "스테이지 너비와 높이를 입력하세요: ";
+                std::cin >> width >> height;
+                
+                print_game_screen(width, height); // 스테이지 출력
+                
                 break;
+                
             case '2':
                 game_state = 2;
                 break;
@@ -88,8 +129,9 @@ int main()
             }
             break;
         case 1:
-            print_game_screen(10, 10);
+            print_game_screen(10,10);
             key_input = _getch();
+            break;
         case 2:
             print_introduction_screen();
             key_input = _getch();
@@ -99,6 +141,7 @@ int main()
                 game_state = 0;
                 break;
             case 'n':
+                
                 break;
             default:
                 break;
