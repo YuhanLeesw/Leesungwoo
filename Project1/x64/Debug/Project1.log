@@ -1,0 +1,4 @@
+﻿  Lecture5.cpp
+D:\202227073_LSW\Leesungwoo\Lecture05\Lecture5.cpp(32,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\202227073_LSW\Leesungwoo\Lecture05\Lecture5.cpp(32,21): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  Project1.vcxproj -> D:\202227073_LSW\Leesungwoo\Project1\x64\Debug\Project1.exe
