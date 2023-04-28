@@ -1,0 +1,6 @@
+﻿  Lecture08.cpp
+D:\c# test\Lecture08\Lecture08\MGameLoop.hpp(20,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\c# test\Lecture08\Lecture08\MGameLoop.hpp(20,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+D:\c# test\Lecture08\Lecture08\MGameLoop.hpp(83,8): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+D:\c# test\Lecture08\Lecture08\MGameLoop.hpp(83,11): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+  Lecture08.vcxproj -> D:\c# test\Lecture08\x64\Debug\Lecture08.exe
