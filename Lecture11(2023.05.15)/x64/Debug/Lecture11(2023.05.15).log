@@ -1,0 +1,4 @@
+﻿  Lecture11(2023.05.15).cpp
+C:\Users\Master\Desktop\Lecture11(2023.05.15)\Cursor.hpp(9,17): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\Master\Desktop\Lecture11(2023.05.15)\Cursor.hpp(9,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  Lecture11(2023.05.15).vcxproj -> C:\Users\Master\Desktop\Lecture11(2023.05.15)\x64\Debug\Lecture11(2023.05.15).exe
