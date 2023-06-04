@@ -1,0 +1,9 @@
+﻿  main.c
+D:\c# test\Lecture14 test1\Lecture14 test1\Util.h(7,10): warning C4566: 유니버설 문자 이름 '\u00AF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+D:\c# test\Lecture14 test1\Lecture14 test1\Util.h(7,10): warning C4566: 유니버설 문자 이름 '\u00BB'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+D:\c# test\Lecture14 test1\Lecture14 test1\Util.h(7,10): warning C4566: 유니버설 문자 이름 '\u00FD'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+D:\c# test\Lecture14 test1\Lecture14 test1\Util.h(7,10): warning C4566: 유니버설 문자 이름 '\u00C7'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+D:\c# test\Lecture14 test1\Lecture14 test1\Util.h(7,10): warning C4566: 유니버설 문자 이름 '\u00C0'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+D:\c# test\Lecture14 test1\Lecture14 test1\Util.h(7,10): warning C4566: 유니버설 문자 이름 '\u00CF'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+D:\c# test\Lecture14 test1\Lecture14 test1\Util.h(7,10): warning C4566: 유니버설 문자 이름 '\u00D9'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+  Lecture14 test1.vcxproj -> D:\c# test\Lecture14 test1\x64\Debug\Lecture14 test1.exe
