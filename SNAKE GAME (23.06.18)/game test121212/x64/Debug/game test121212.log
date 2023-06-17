@@ -1,0 +1,13 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(game test121212.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  main.c
+D:\c# test\SNAKE GAME (23.06.18)\game test121212\Screen.h(1,1): warning C4828: 파일에 0x725 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
+D:\c# test\SNAKE GAME (23.06.18)\game test121212\main.c(178,7): warning C4013: 'moving'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Screen.c
+D:\c# test\SNAKE GAME (23.06.18)\game test121212\Screen.h(1,1): warning C4828: 파일에 0x725 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
+D:\c# test\SNAKE GAME (23.06.18)\game test121212\Screen.c(50,2): warning C4013: 'gotoxy'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\c# test\SNAKE GAME (23.06.18)\game test121212\Screen.c(51,21): warning C4013: 'printf'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\c# test\SNAKE GAME (23.06.18)\game test121212\Screen.c(60,9): warning C4013: '_getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\c# test\SNAKE GAME (23.06.18)\game test121212\Screen.c(63,23): warning C4013: 'puts'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+D:\c# test\SNAKE GAME (23.06.18)\game test121212\Screen.c(189,2): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다...
+  game test121212.vcxproj -> D:\c# test\SNAKE GAME (23.06.18)\x64\Debug\SNAKE GAME.exe
